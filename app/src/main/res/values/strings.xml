@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">exm</string>
+    <array name="order">
+        <item>По умолчанию</item>
+        <item>По возрастанию цены</item>
+        <item>По наименованию</item>
+
+    </array>
+</resources>

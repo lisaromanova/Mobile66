@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/absence"
+        android:onClick="updImage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/deleteImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Убрать картинку"
+        android:onClick="deleteImage"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/image"/>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Наименование"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/deleteImage" />
+
+    <TableRow
+        android:id="@+id/fieldInt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/title">
+
+        <EditText
+            android:id="@+id/Cost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Количество"
+            android:layout_weight="1"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/StockAvailability"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Всего в налчие"
+            android:layout_weight="1"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/AvailabilityInTheStore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="В магазине"
+            android:layout_weight="1"
+            android:inputType="number"
+            />
+
+    </TableRow>
+
+    <EditText
+        android:id="@+id/Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/fieldInt" />
+
+    <EditText
+        android:id="@+id/Rewiews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Отзыв"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/Description" />
+
+    <TableRow
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Rewiews"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back"
+            android:text="Назад"
+            android:onClick="back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add"
+            android:text="Добавить"
+            android:onClick="add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+</androidx.constraintlayout.widget.ConstraintLayout>

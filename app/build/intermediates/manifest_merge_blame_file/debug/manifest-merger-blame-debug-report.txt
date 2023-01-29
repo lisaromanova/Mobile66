@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.exm"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:5:5-79
+11-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.exm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.exm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:8:5-52:19
+21        android:allowBackup="true"
+21-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:13:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:14:9-54
+30        android:supportsRtl="true"
+30-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.Exm" >
+32-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:16:9-41
+33        <activity
+33-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:18:9-24:20
+34            android:name="com.example.exm.UpdateActivity"
+34-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:19:13-43
+35            android:exported="false" >
+35-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:20:13-37
+36            <meta-data
+36-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:21:13-23:36
+37                android:name="android.app.lib_name"
+37-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:22:17-52
+38                android:value="" />
+38-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:23:17-33
+39        </activity>
+40        <activity
+40-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:25:9-31:20
+41            android:name="com.example.exm.AddActivity"
+41-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:26:13-40
+42            android:exported="false" >
+42-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:21:13-23:36
+44                android:name="android.app.lib_name"
+44-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:22:17-52
+45                android:value="" />
+45-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:23:17-33
+46        </activity>
+47        <activity
+47-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:32:9-38:20
+48            android:name="com.example.exm.MainWindow"
+48-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:33:13-39
+49            android:exported="false" >
+49-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:34:13-37
+50            <meta-data
+50-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:21:13-23:36
+51                android:name="android.app.lib_name"
+51-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:22:17-52
+52                android:value="" />
+52-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:23:17-33
+53        </activity>
+54        <activity
+54-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:39:9-51:20
+55            android:name="com.example.exm.MainActivity"
+55-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:40:13-41
+56            android:exported="true" >
+56-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:41:13-36
+57            <intent-filter>
+57-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:42:13-46:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:43:17-69
+58-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:43:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:45:17-77
+60-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:45:27-74
+61            </intent-filter>
+62
+63            <meta-data
+63-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:21:13-23:36
+64                android:name="android.app.lib_name"
+64-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:22:17-52
+65                android:value="" />
+65-->D:\Android\exm-main\exm-main\exm1\app\src\main\AndroidManifest.xml:23:17-33
+66        </activity>
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+70            android:authorities="com.example.exm.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Elizaveta\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Elizaveta\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Elizaveta\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Elizaveta\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+78        </provider>
+79    </application>
+80
+81</manifest>
